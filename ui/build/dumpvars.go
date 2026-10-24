@@ -151,14 +151,11 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 
 // Variables to print out in the top banner
 var BannerVars = []string{
-	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
 	"SKYZEN_VERSION",
-	"PRODUCT_SOURCE_ROOT_DIRS",
+	"SKYZEN_MAINTAINER",
 	"TARGET_PRODUCT",
 	"TARGET_BUILD_VARIANT",
-	"TARGET_BUILD_APPS",
-	"TARGET_BUILD_UNBUNDLED",
 	"TARGET_ARCH",
 	"TARGET_ARCH_VARIANT",
 	"TARGET_CPU_VARIANT",
@@ -169,8 +166,6 @@ var BannerVars = []string{
 	"HOST_OS_EXTRA",
 	"HOST_CROSS_OS",
 	"BUILD_ID",
-	"OUT_DIR",
-	"SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE",
 	"PRODUCT_IS_ATV",
 	"PRODUCT_IS_AUTOMOTIVE",
 	"WITH_GMS",
